@@ -45,3 +45,29 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
+.boxmodel{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #d4d0d0;
+    border-radius: 10px;
+    border-left: 8px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(orange,rgb(214, 19, 19));
+}
+.boxmodel2{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #d4d0d0;
+    border-radius: 10px;
+    border-left: 8px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(2, 133, 255),rgb(12, 255, 223));
+}
+.background-image-third{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    margin-top: 5px;;
+    text-align: center;
+}
