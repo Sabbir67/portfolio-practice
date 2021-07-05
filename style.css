@@ -15,17 +15,22 @@ h2{
 
 .flexible{
     display: flex;
+    
+    
+}
+
+.background-image{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-    
 }
 .div-width{
     width:50%;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
 }
 .div-width img{
     width: 80%;
-    float: right;
+    
 }
 .button-design{
     background-image: linear-gradient(orange,rgb(214, 19, 19));
@@ -34,4 +39,9 @@ h2{
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+.second-section{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
